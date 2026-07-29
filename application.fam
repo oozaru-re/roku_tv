@@ -1,0 +1,14 @@
+App(
+    appid="roku_tv",
+    name="Roku TV",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="roku_tv_app",
+    targets=["f7"],
+    stack_size=4 * 1024,
+    fap_category="Infrared",
+    fap_description="Roku Controller",
+    fap_author="oozaru",
+    fap_version="1.0",
+    fap_libs=["infrared"],
+    fap_icon_assets="images",
+)
